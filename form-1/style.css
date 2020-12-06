@@ -1,0 +1,143 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(#243340, #275673);
+    height: 100vh;
+    padding: 0 20px;
+}
+
+form {
+    margin: 10vh auto;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 20px;
+    height: 450px;
+    margin-top: calc((100vh - 450px)/2);
+}
+
+form h1 {
+    margin: 20px;
+    color: #243340;
+}
+
+form input {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #6393A6;
+    border-radius: 10px;
+    transition: border 0.5s;
+}
+
+form input:focus {
+    border: 2px solid #243340;
+    
+    
+}
+
+
+.pass, .email {
+    padding-left: 30px;
+}
+
+form label {
+    position: relative;
+}
+
+label i{
+    position: absolute;
+    left: -90px;
+    top: 5px;
+    color: rgb(80, 79, 79);
+    z-index: 1;
+}
+
+
+
+form input[type=submit] {
+    background-color: #275673;
+    color: white;
+    padding: 10px 5px;
+    font-size: 16px;
+}
+
+form input[type=submit]:hover {
+    background-color: #243340;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.forgot-pass {
+    font-size: 12px;
+    margin-top: -10px;
+    color: #6393A6;
+    text-decoration: none;
+}
+
+.ou {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 20px;
+}
+.ou::before {
+    content: '';
+    border-left: 1px solid #6393A6;
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    background-color: #6393A6;
+    margin-right: 10px;
+    position: relative;
+    top: -4px;
+
+}
+
+.ou::after {
+    content: '';
+    border-right: 1px solid #6393A6;
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    background-color: #6393A6;
+    margin-left: 10px;
+    position: relative;
+    top: -4px;
+}
+
+.inscreva {
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+#twitter, #facebook {
+    background-color: #6393A6;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 20px 10px;
+
+}
+
+a i{
+    font-size: 16px;
+    color: white;
+}
+
+#twitter:hover, #facebook:hover {
+    background-color: #275673;
+    transition: .5s;
+}
